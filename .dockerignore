@@ -1,0 +1,5 @@
+# Allow-list: only what the image needs ever enters the build context
+# (keeps .env files and secrets out of the image). Add new source files here.
+*
+!requirements.txt
+!main.py

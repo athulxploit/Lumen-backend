@@ -1,0 +1,10 @@
+# Tested on Python 3.12 with: fastapi 0.142.2, starlette 1.7.0, uvicorn 0.54.0, httpx 0.28.1,
+# beautifulsoup4 4.15.0, lxml 6.1.3, pydantic 2.13.5, pydantic-settings 2.15.0.
+# For reproducible builds, pin exact versions (uv lock / pip-compile) once you've validated them.
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+httpx>=0.27,<1.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.2
+pydantic>=2.7,<3.0
+pydantic-settings>=2.4,<3.0
